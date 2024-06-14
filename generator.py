@@ -38,5 +38,5 @@ def generate_password(pw_length, pw_chars):
     return password
 
 
-for j in range(num):
+for _ in range(num):
     print(generate_password(length, chars))
